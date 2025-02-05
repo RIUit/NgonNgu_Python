@@ -1,0 +1,41 @@
+import math #or from math import
+
+# print(help(math)) cung cấp các hàm cách dùng trong math
+
+#sqrt():căn bậc 2
+print(math.sqrt(76))
+
+#isqrt():lấy phân nguyên của căn bậc 2
+print(math.isqrt(76))
+
+#pow:Lũy thừa
+print(pow(2,10)) # or 2**10
+
+#ceil:làm tròn lên
+print(math.ceil(2.3))
+print(math.ceil(3.9))
+
+#floor:Làm tròn xuống
+print(math.floor(2.3))
+print(math.floor(3.9))
+
+#factorial: giai thừa
+print(math.factorial(2))
+
+#gcd(a,b): ước chung lớn nhất của 2 số a và b
+print(math.gcd(100,450))
+
+#comb(n,k):tổ hợp 
+print(math.comb(6,2))
+
+#perm:chỉnh hợp
+print(math.perm(5,3))
+
+#fabs:trị tuyệt đối 
+print(math.fabs(-100.5656))
+
+#Tìm max(or min)
+print(max(0,5,9,2))
+
+#sum()
+print(sum([1,2,3,4]))
